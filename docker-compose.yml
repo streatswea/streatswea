@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  streatswea:
+    image: streatswea
+    build:
+      context: .
+      dockerfile: ./Dockerfile
